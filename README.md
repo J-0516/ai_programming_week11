@@ -6,8 +6,9 @@
 
 ## ② 왜 만들었나요 (Why)          ★ AI는 이 칸을 못 씁니다
 
-일반적인 경우에는 범위 외 점수뿐만 아니라, 
+일반적인 경우에는 범위 외 점수뿐만 아니라,
 빈 칸, 중복 이름, 헤더만 있는 칸과 같은 CVS에서 작동이 안 된다.
+
 
 ## ③ 어떻게 쓰나요 (How)
 
@@ -29,14 +30,14 @@ pytest를 실행하면 다음과 같다.
 platform win32 -- Python 3.12.6, pytest-9.2.0, pluggy-1.7.0
 rootdir: C:\Users\USER\Desktop\AI_programming\week11_files
 plugins: cov-7.1.0
-collected 17 items                                                                            
+collected 17 items
 
 test_ai_A.py ...                                                                        [ 17%]
 test_ai_B.py ....                                                                       [ 41%]
 test_ai_C.py .                                                                          [ 47%]
 test_load_scores.py .........                                                           [100%]
 
-===================================== 17 passed in 0.11s ===================================== 
+===================================== 17 passed in 0.11s =====================================
 ```
 
 ## ⑤ 파일 구성
