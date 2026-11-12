@@ -33,8 +33,10 @@ pytest
 | --- | --- |
 | `load_scores.py` | 성적 CSV를 읽고 유효한 성적과 제외한 행의 기록을 반환한다. |
 | `test_load_scores.py` | 성적 읽기의 정상 동작, 파일 예외, 빈 파일, 점수 경계값을 테스트한다. |
-| `test_ai_A.py`, `test_ai_B.py` | 중복 이름, 빈 줄, 잘못된 행, 경계값과 명령행 실행 결과를 추가로 테스트한다. |
-| `scores.csv`, `empty.csv` | 성적 읽기와 헤더만 있는 파일을 확인하는 입력 예시이다. |
+| `test_ai_A.py`, `test_ai_B.py` | 코드 제공·명세 제공 방식으로 만든 성적 읽기 테스트이다. |
+| `bug3_logic.py`, `test_ai_C_버그.py`, `test_ai_C.py` | 예시 버그가 있는 최댓값 함수와 이를 확인하는 테스트이다. |
+| `scores.csv`, `empty.csv`, `weird.csv` | 성적 CSV 입력 예시와 테스트 데이터이다. |
+| `prompts.txt` | 테스트 생성 실습에 사용한 프롬프트와 진행 방법이다. |
 
 ## ⑥ 만든 사람 · AI를 어디에 썼는지
 
