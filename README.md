@@ -21,24 +21,11 @@ python load_scores.py scores.csv
 
 ## ④ 어떻게 테스트하나요
 
-```bash
-pytest를 실행하면 다음과 같다.
+```powershell
+pytest
 ```
 
-```
-==================================== test session starts =====================================
-platform win32 -- Python 3.12.6, pytest-9.2.0, pluggy-1.7.0
-rootdir: C:\Users\USER\Desktop\AI_programming\week11_files
-plugins: cov-7.1.0
-collected 17 items
-
-test_ai_A.py ...                                                                        [ 17%]
-test_ai_B.py ....                                                                       [ 41%]
-test_ai_C.py .                                                                          [ 47%]
-test_load_scores.py .........                                                           [100%]
-
-===================================== 17 passed in 0.11s =====================================
-```
+![pytest 실행 결과](image.png)
 
 ## ⑤ 파일 구성
 
